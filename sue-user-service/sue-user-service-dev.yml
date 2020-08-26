@@ -1,0 +1,11 @@
+# 数据库连接串和密码
+mysqldb:
+    url: 'jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8'
+    password: '{cipher}fe52e9522860dc85c89aebadd7a9a02490273035dd1a562c71373d96f5d8bdd9'
+    username: root
+# 功能开关
+userservice:
+  registration:
+    disabled: true
+
+# actuator
